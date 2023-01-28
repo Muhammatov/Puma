@@ -1,0 +1,711 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.container .content {
+    width: 100%;
+    height: 600px;
+    background-color: #FDEFE9;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.container .content .navbars {
+    width: 80%;
+    height: 80px;
+
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .content .navbars .navbar_logo {
+    width: 55%;
+    height: 60%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.container .content .navbars .navbar_button {
+    width: 11%;
+    height: 60%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+}
+
+.container .content .navbars .navbar_logo img {
+    width: 80px;
+}
+
+.container .content .navbars .navbar_logo ul {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .content .navbars .navbar_logo ul li a {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #1A0A03;
+
+}
+
+.container .content .navbars .navbar_logo ul li a:hover {
+    color: orangered;
+
+}
+
+.container .content .navbars .navbar_button .clc {
+    width: 100%;
+    height: 90%;
+    border: none;
+    border-radius: 5px;
+    background-color: #EE5514;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+/* Body qismi Boshlandi */
+.body {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body .shoes_text {
+    width: 40%;
+    height: 300px;
+    margin-top: 55px;
+}
+
+.body .shoes_text .lore {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+    line-height: 20px;
+}
+
+.body .shoes_text .life {
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.body .shoes_text .life span {
+    color: #EE5514;
+}
+
+.body .shoes_img {
+    width: 280px;
+    height: 280px;
+    border: 5px solid #F9C9B4;
+    margin-top: 50px;
+}
+
+.body .shoes_img .spans {
+    width: 90px;
+    height: 90px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+
+.body .shoes_img .spans span {
+    width: 8px;
+    height: 8px;
+    background-color: #F9C9B4;
+    border-radius: 5px;
+}
+
+.body .shoes_img .shoes {
+    width: 420px;
+    height: 300px;
+    margin-top: -120px;
+    margin-left: -80px;
+
+}
+
+.container .meddil_search {
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+.container .meddil_icon {
+    width: 80%;
+    height: 90px;
+    box-shadow: 0px 0px 5px grey;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+}
+
+.container .meddil_search .meddil_content {
+    width: 70%;
+    height: 70%;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .meddil_search .meddil_icon .meddil_content .box1 {
+    width: 80px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.container .meddil_search .meddil_icon .meddil_content .chiziq {
+    font-size: 50px;
+    color: red;
+    margin-top: -10px;
+
+}
+
+.container .meddil_search .meddil_icon .meddil_content .box1 .bran {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #5F544F;
+    font-size: 15px;
+}
+
+.container .meddil_search .meddil_icon .meddil_content .box1 #select {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container .meddil_search .meddil_icon .meddil_content .box1 .buttom {
+    width: 100px;
+    height: 60px;
+    background-color: #EE5514;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/* Meddil Box qismi Boshlandi */
+.container .meddil_search .meddil_box {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .meddil_search .meddil_box .meddil_box_left {
+    width: 350px;
+    height: 180px;
+}
+
+.container .meddil_search .meddil_box .meddil_box_right {
+    width: 350px;
+    height: 180px;
+    border-radius: 8px;
+    background: url(../imgs/Shoes_img_1.png) no-repeat center center /cover;
+}
+
+.container .meddil_search .meddil_box .meddil_box_right .img_front {
+    width: 350px;
+    height: 180px;
+    margin-top: 30px;
+    margin-left: -40px;
+    border-radius: 8px;
+    padding-top: 60px;
+    background: url(../imgs/Shoes_img_2.png) no-repeat center center /cover;
+}
+
+.container .meddil_search .meddil_box .meddil_box_right .img_front .aylana {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .meddil_search .meddil_box .meddil_box_right .img_front .aylana .bx-play {
+    font-size: 50px;
+    color: #EE5514;
+    margin-left: 8px;
+}
+
+.container .meddil_search .meddil_box .meddil_box_left .video {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    color: #EE5514;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+.container .meddil_search .meddil_box .meddil_box_left .fell {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 12px;
+}
+
+.container .meddil_search .meddil_box .meddil_box_left .dolor {
+    width: 280px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 18px;
+    color: #5F544F;
+    margin-top: 10px;
+}
+
+/* Meddil Box Qismi Tugadi */
+/* feature  qismi boshland */
+.container .meddil_search .feature {
+    width: 100%;
+    height: auto;
+    margin: 100px auto;
+}
+
+.container .meddil_search .feature .feature_text {
+    text-transform: uppercase;
+    text-align: center;
+    color: #EE5514;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.container .meddil_search .feature .have {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.flex_box {
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid orange; */
+    margin-top: 100px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature .box_1 {
+    width: 31%;
+    height: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.feature .box_1:hover {
+    background-color: #FDEEE8;
+    transition: all 1s;
+    box-shadow: 0px 0px 15px gray;
+    
+}
+
+.feature .box_1 .box_2 {
+    width: 80px;
+    height: 80px;
+    background-color: #7ca0d6;
+    border-radius: 50%;
+    /* opacity: .2; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature .box_1 .two {
+    background-color: #9a7cec;
+    /* opacity: .2; */
+}
+
+.feature .box_1 .three {
+    background-color:
+        #c3b6c9;
+    /* opacity: .2; */
+}
+
+.feature .box_1 .box_2 img {
+    width: 70%;
+}
+
+.feature .box_1 .quatliy {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.feature .box_1 .dolor {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 15px;
+}
+.feature .box_1 .more{
+    margin-top: 18px;
+    width: 100px;
+    height: 25px;
+    border: none;
+    background-color: white;
+    color: #EE5514;
+}
+.feature .meddil_box_2{
+    width: 100%;
+    height: auto;
+    margin-top: 130px;
+    
+}
+.feature .meddil_box_2 .gala{
+    text-transform: uppercase;
+    color:#EE5514;
+    margin-top: 5px;
+}
+.feature .meddil_box_2 .year{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    margin-top: 5px;
+}
+.feature .meddil_box_2 .navbars{
+    width: 400px;
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+}
+.feature .meddil_box_2 .navbars ul{
+    display: flex;
+    gap: 30px;
+}
+.feature .meddil_box_2 .navbars ul li a{
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+.feature .meddil_box_2 .navbars ul li a:hover{
+    color: #EE5514;
+    border-bottom: 2px solid #EE5514;
+}
+.feature .meddil_box_2 .items{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid blue; */
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-between;
+}
+.feature .meddil_box_2 .items .item{
+    width: 23%;
+    height: auto;
+    border-radius: 8px;
+}
+.feature .meddil_box_2 .items .one img{
+    /* background: url(../items/img_1.png) no-repeat center center /cover; */
+    width: 100%;
+    height: auto;
+}
+.feature .meddil_box_2 .items .two img{
+    /* background: url(../items/img_2.png) no-repeat center /cover; */
+    width: 100%;
+}
+.feature .meddil_box_2 .items .three img{
+    /* background: url(../items/img_3.png) no-repeat center /cover; */
+    width: 100%;
+}
+.feature .meddil_box_2 .items .four img{
+    /* background: url(../items/img_4.png) no-repeat center /cover; */
+    width: 100%;        
+}
+.feature .items .item .bold
+{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    margin-left: 20px;
+}
+.feature .items .item .size{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    font-size: 13px;
+    margin-top: 8px;
+}
+.feature .items .item .price{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    font-size: 13px;
+    margin-top: 5px;
+}
+.feature .items .item .price span{
+    font-weight: 600;
+}
+.feature .items .item .buy{
+    width: 108px;
+    height: 38px;
+    margin-left: 20px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: #EE5514;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.feature .testomional .test{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top:54px;
+}
+
+.feature .testomional .img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.feature .testomional .test_img{
+    width: 500px;
+    height: 350px;
+
+}
+.feature .testomional .img .test_text{
+    width: 500px;
+    height: 350px;
+}
+.feature .testomional .img .test_text .boy{
+    width: 80px;
+    height: 80px;
+}
+.feature .testomional .img .test_text .nuqta{
+    width: 40px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature .testomional .img .test_text .nuqta img{
+    width: 60%;
+    height: 80%;
+}
+.feature .testomional .img .test_text .was{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    margin-top: 8px;
+}
+.feature .testomional .img .test_text .ipsum{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    color: #1A0A03;
+    margin-top: 10px;
+    width: 350px;
+}
+.feature .testomional .img .test_text .ism{
+    font-family: 'Poppins', sans-serif;
+    font-size: normal;
+    margin-top: 12px;
+    font-weight: 600;
+}
+.feature .testomional .img .test_text .Athletic{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.feature .footer{
+    width: 100%;
+    height: 330px;
+
+    margin-top: 120px;
+    display: flex;
+    
+}
+.feature .footer .foter_1{
+    width: 40%;
+    height: 100%;
+    background: url(../imgs/puma_img.png) no-repeat center /cover;
+}
+.feature .footer .foter_2{
+    width: 60%;
+    height: 100%;
+    background-color: #F3F7FC;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.feature .footer .foter_2 .sign{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    margin-left: 60px;
+}
+.feature .footer .foter_2 .sit{
+    width: 560px;
+    font-display: 16px;
+    margin-left: 60px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 13px;
+}
+.feature .footer .foter_2 .qidiruv  .email{
+    width: 85%;
+    height: 45px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    border: 1px solid grey;
+    font-family: 'Poppins', sans-serif; 
+    padding-left: 20px;
+    background-color: #F3F7FC;
+ 
+}
+.feature .footer .foter_2  .qidiruv{
+    width: 520px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+   
+}
+.feature .footer .foter_2  .qidiruv  .send{
+    width: 100px;
+    height: 45px;
+    background-color: #EE5514;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.futer{
+    width: 100%;
+    height: 400px;
+    background-color: #FFF8F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.futer .futer_content{
+    width: 80%;
+    height: auto;
+    padding-bottom: 30px;
+    border-bottom: 1.5px solid grey;
+    display: flex;
+    justify-content: space-between;
+}
+.futer .futer_content .futer_content_box_1{
+    width: 22%;
+    height: 100%;
+}
+.futer .futer_content .futer_content_box_1 img{
+    width: 80px;
+}
+.futer .futer_content .futer_content_box_1 .new{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 8px;
+}
+.futer .futer_content .futer_content_box_1 .adres{
+    width: 400px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.futer .futer_content .futer_content_box_1 ul{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+   gap: 15px;
+    margin-top: 15px;
+}
+.futer .futer_content .futer_content_box_1 ul li a img{
+    width: 20px;
+}
+.futer .futer_content .futer_content_box_1 .our{
+    font-family: 'Poppins', sans-serif;
+
+}
+.futer .futer_content .futer_content_box_1 .us{
+    flex-direction: column;
+    width: 100%;
+    color: black;
+}
+.futer .futer_content .futer_content_box_1 .us li a{
+    color:  black;
+    font-family: 'Poppins', sans-serif;
+}
+.futer .futer_content .futer_content_box_1  .tugmalar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.futer .futer_content .futer_content_box_1  .tugmalar input{
+    width: 70%;
+    height: 80%;
+    padding-left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.futer .futer_content .futer_content_box_1  .tugmalar .se{
+    width: 30%;
+    height: 80%;
+    border: none;
+    background-color: #EE5514;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.all{
+    margin-top: -80px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: #1A0A03;
+}
